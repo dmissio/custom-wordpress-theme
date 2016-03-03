@@ -1,6 +1,11 @@
 <footer>
   <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+  	<div class="copyright">
+    	<p>&copy; Copyright <?php echo date('Y'); ?></p>
+    </div>
+    <div class="developedBy">
+    	<p>Site Developed by David Missio</p>
+    </div>
   </div>
 </footer>
 

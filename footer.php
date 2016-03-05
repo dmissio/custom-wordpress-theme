@@ -1,11 +1,15 @@
 <footer>
-  <div class="container">
-  	<div class="copyright">
-    	<p>&copy; Copyright <?php echo date('Y'); ?></p>
-    </div>
-    <div class="developedBy">
-    	<p>Site Developed by David Missio</p>
-    </div>
+  	<div class="container">
+  	
+  		<div class="footer-left">
+			<p>All content copyright <?php echo date('Y'); ?> - Blitz All Rights Reserved</p>
+		</div>
+
+		<div class="footer-right">
+			<p>Site developed by David Missio</p>
+		</div>
+
+	<div class="footer-right"></div>
   </div>
 </footer>
 

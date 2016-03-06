@@ -25,6 +25,7 @@ img {
 
 body {
 	color: #333;
+	background-image: url("images/brushed.png");
 }
 
 .container {
@@ -36,6 +37,10 @@ body {
 	float: left;
 	width: 65%;
 	margin-right: 5%;
+}
+
+.main {
+	background-image: url("images/brushed.png");
 }
 
 .full {
@@ -68,6 +73,7 @@ img {
 .wrapper {
 	max-width: 1200px;
 	margin:0 auto;
+
 }
 
 header .wrapper {
@@ -75,12 +81,97 @@ header .wrapper {
 	justify-content: space-between;
 	align-items: center;
 	font-size: 1.5rem;
+	
 }
 
 .single-blog-post {
-	width: 33.33%;
+	width: 30.33%;
 	float:left;
+	padding: 0 2%;
+	margin: 0 1% 5%;
+	background-color: #F7F5F2;
+	h3 {
+		font-family: 'Playfair Display', serif;
+		font-size: 1.5rem;
+		
+	}
+	h4 {
+		margin-bottom: 0;
+		
+	}
+	p{
+		font-family: montserrat, sans-serif;
+	}
+	a {
+		float: right;
+		color: black;
+		font-weight: bold;
+		padding: 5% 0 5%;
+		&:hover {
+			color: #E68D32;
+		}
+
+	}
 }
+
+.front-page-blog-image {
+	height: 150px;
+}
+
+.front-page-main {
+	background-color: rgba(0,0,0,0.5);
+    width: 55%;
+    position: absolute;
+    padding: 2%;
+    top: 70%;
+    h2 {
+   	color: aliceblue;
+    font-size: 3.2rem;
+    font-family: 'Playfair Display', serif;
+    }
+    p {
+    color: aliceblue;
+    font-family: montserrat, sans-serif;
+    font-size: 1.2rem;
+    }
+}
+
+.front-page-hero {
+	margin-bottom: 12%;
+	position: relative;
+}
+
+.about-content {
+	h2 {
+		font-family: 'Playfair Display', serif;
+		font-size: 2rem;
+		margin-left: 2%;
+	}
+}
+
+.about-content-wrap {
+	position: relative;
+
+}
+
+.about-page-half {
+	float: left;
+	width: 65%;
+	margin: 0 1% 5%;
+	p {
+		font-family: montserrat, sans-serif;
+	}
+}
+
+.about-page-content {
+	background-color: rgba(0,0,0,0.5);
+	padding: 2%;
+	position: absolute;
+	left:0;
+}
+
+
+
 
 
 

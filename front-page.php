@@ -3,15 +3,18 @@
 
 <div class="main">
   <div class="container">
-
-		<img src="<?php echo hackeryou_get_thumbnail_url($post) ?>" alt="">
+		<div class="front-page-hero">
+			<img src="<?php echo hackeryou_get_thumbnail_url($post) ?>" alt="">
+		</div>
   
+  <div class="front-page-main">
 	<?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
         <?php the_content(); ?>
 
       <?php endwhile; // end the loop ?>
+  </div>
 
       <?php 
 				$args = new WP_Query( array(
@@ -28,7 +31,7 @@
 					 		<h3><?php the_title() ?></h3>
 					 		<img src="<?php echo hackeryou_get_thumbnail_url($post) ?>" class = "front-page-blog-image" alt="">
 					<div class="post-details">
-							 <h3>Written by</h3>
+							 <h4>Written by</h4>
 								<?php the_author() ?>
 					</div>
 					<div class="post-content">

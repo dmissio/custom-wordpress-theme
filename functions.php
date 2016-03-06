@@ -47,6 +47,8 @@ function hackeryou_styles(){
 
 	wp_enqueue_style('fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 	wp_enqueue_style('googlefonts', 'https://fonts.googleapis.com/css?family=Alex+Brush');
+	wp_enqueue_style('googlefonts', 'https://fonts.googleapis.com/css?family=Alex+Brush|Montserrat');
+	wp_enqueue_style('googlefonts', 'https://fonts.googleapis.com/css?family=Playfair+Display:400, 700');
 }
 
 

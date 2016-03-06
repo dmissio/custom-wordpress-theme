@@ -28,6 +28,10 @@ body {
 	background-image: url("images/brushed.png");
 }
 
+article {
+	margin-bottom: 5%;
+}
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -37,6 +41,7 @@ body {
 	float: left;
 	width: 65%;
 	margin-right: 5%;
+	margin-bottom: 5%;
 }
 
 .main {
@@ -65,6 +70,46 @@ img {
 	font-size: 3.5rem;
 }
 
+h2.entry-title a{
+	color: black;
+	font-style: bold;
+	&:hover {
+		color: #E68D32;
+		font-style: italic;
+	}
+}
+
+.post-content a{
+	color:black;
+	font-style: italic;
+	&:hover {
+		color: #E68D32;
+	}
+}
+
+.blog-sidebar {
+	padding-top: 5%;
+	a {
+		font-style: italic;
+		color: darkgrey;
+		&:hover {
+			color: #E68D32;
+		}
+	}
+}
+
+.post-details{
+	
+	h3 {
+	margin:0;
+	font-family: montserrat, sans-serif;
+	font-size: 1rem;
+	font-style: italic;
+	margin-top: 2%;
+	}
+}
+
+
 .jesus {
 	clear:both;
 	width:100%;
@@ -88,7 +133,7 @@ header .wrapper {
 	width: 30.33%;
 	float:left;
 	padding: 0 2%;
-	margin: 0 1% 5%;
+	margin: 5% 1% 5%;
 	background-color: #F7F5F2;
 	h3 {
 		font-family: 'Playfair Display', serif;
@@ -119,7 +164,7 @@ header .wrapper {
 }
 
 .front-page-main {
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.7);
     width: 55%;
     position: absolute;
     padding: 2%;
@@ -141,34 +186,56 @@ header .wrapper {
 	position: relative;
 }
 
-.about-content {
+.about-title-section {
+	margin-bottom: 5%;
+	width: 60%;
 	h2 {
 		font-family: 'Playfair Display', serif;
-		font-size: 2rem;
-		margin-left: 2%;
+		font-size: 2.5rem;
+		margin-bottom: 2%;
+	}
+	p.about-sub-title {
+		font-family: montserrat, sans-serif;
+		font-size: 1.5rem;
+		margin: 0;
+		color: red;
+	}
+	p.about-sub-sub {
+		font-style: italic;
+		margin:0;
+		font-size: 1rem;
+		margin-bottom: 2%;
 	}
 }
 
+// hr {
+// 	margin-bottom: 5%;
+// }
+
 .about-content-wrap {
 	position: relative;
+	margin-top: 5%;
+	.about-page-content {
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+    left: 30%;
+    top: 20%;
+    color: white;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 2%;
+	}
 
 }
 
 .about-page-half {
 	float: left;
 	width: 65%;
-	margin: 0 1% 5%;
+	margin-bottom: 10%;
 	p {
 		font-family: montserrat, sans-serif;
 	}
 }
 
-.about-page-content {
-	background-color: rgba(0,0,0,0.5);
-	padding: 2%;
-	position: absolute;
-	left:0;
-}
 
 
 

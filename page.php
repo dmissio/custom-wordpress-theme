@@ -3,10 +3,20 @@
 <div class="main">
   <div class="container">
 
+
     <div class="about-content">
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-      <h2><?php the_title(); ?></h2>
+      <hr>
+      <div class="about-title-section">
+
+        <h2><?php the_title(); ?></h2>
+        <p class="about-sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p class="about-sub-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+         
+      </div>
+
+ <hr>
 
     <div class="about-content-wrap clearfix">
       <div class="about-page-hero about-page-half">

@@ -55,9 +55,9 @@ img {
 	display:block;
 }
 
-header {
-	background: grey;
-
+.logo h2 {
+	font-family: 'Alex Brush', cursive;
+	font-size: 3.5rem;
 }
 
 .jesus {
@@ -66,7 +66,21 @@ header {
 }
 
 .wrapper {
-	// max-width: 900px;
+	max-width: 1200px;
 	margin:0 auto;
 }
+
+header .wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.5rem;
+}
+
+.single-blog-post {
+	width: 33.33%;
+	float:left;
+}
+
+
 

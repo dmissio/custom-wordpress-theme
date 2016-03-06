@@ -46,7 +46,9 @@ function hackeryou_styles(){
 	wp_enqueue_style('style', get_stylesheet_uri() );
 
 	wp_enqueue_style('fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+	wp_enqueue_style('googlefonts', 'https://fonts.googleapis.com/css?family=Alex+Brush');
 }
+
 
 add_action( 'wp_enqueue_scripts', 'hackeryou_styles');
 /* Add all our JavaScript files here.
@@ -281,8 +283,4 @@ function hackeryou_get_thumbnail_url( $post ) {
 	$imageID = get_post_thumbnail_id($post->ID);
 	$imageURL = wp_get_attachment_url($imageID);
 	return $imageURL;
-}	
-
-
-
-
+}

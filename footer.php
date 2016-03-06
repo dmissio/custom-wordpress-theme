@@ -1,6 +1,5 @@
 <footer>
-  	<div class="container">
-  	
+  	<div class="wrapper">
   		<div class="footer-left">
 			<p>All content copyright <?php echo date('Y'); ?> - Blitz All Rights Reserved</p>
 		</div>
@@ -8,10 +7,9 @@
 		<div class="footer-right">
 			<p>Site developed by David Missio</p>
 		</div>
-
-	<div class="footer-right"></div>
   </div>
 </footer>
+
 
 <script>
 // scripts.js, plugins.js and jquery are enqueued in functions.php
